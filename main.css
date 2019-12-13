@@ -1,0 +1,142 @@
+body{
+    margin: 0;
+}
+
+.contact{
+    background-color: lightgrey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    overflow: hidden;
+    top: 0;
+}
+.email{
+    margin-left: 10px;
+}
+.contact > ul{
+    list-style-type: none;
+}
+.contact > ul li{
+    display: inline;
+}
+.logo{
+    display: inline;
+}
+
+.flex-wrapper{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    display: block;
+}
+
+.hero1{
+    background-color: rgb(224, 224, 224);
+    margin-top: 50px;
+    height: 25px;
+    text-align: center;
+    width: 100%;
+    line-height: 25px;
+    display: block;
+}
+.hero2{
+    height: 200px;
+    text-align: center;
+    width: 100%;
+    line-height: 200px;
+}
+.hero3{
+    background-color: rgb(75, 75, 75);
+    height: 25px;
+    text-align: center;
+    width: 100%;
+    line-height: 25px;
+}
+.intro{
+    background-color: rgb(139, 139, 139);
+    height: 100px;
+    text-align: center;
+    width: 100%;
+    line-height: 100px;
+}
+.bio{
+    background-color: rgb(71, 71, 71);
+    height: 200px;
+    width: 100%;
+    line-height: 200px;
+    text-align: center;
+}
+
+.professional-intro{
+    background-color: rgb(170, 170, 170);
+    height: 50px;
+    display: block;
+    width: 100%;
+    line-height: 50px;
+}
+.projects-intro{
+    background-color: rgb(187, 187, 187);
+    text-align: center;
+    width: 100%;
+}
+.resume-download{
+    background-color: rgb(110, 110, 110);
+    text-align: center;
+    width: 100%;
+}
+.projects{
+    background-color: rgb(80, 80, 80);
+    width: 100%;
+}
+.project{
+    background-color: rgb(185, 185, 185);
+    width: 100%;
+    text-align: center;
+}
+.project-screen{
+    background-color: rgb(77, 77, 77);
+    display: inline-block;
+    margin: 0 auto;
+    width: 100%;
+    height: 200px;
+    line-height: 200px;
+}
+.project-title{
+    background-color: grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 100%;
+}
+.project-name{
+    background-color: grey;
+    text-align: left;
+}
+.project-coding{
+    background-color: grey;
+    text-align: right;
+}
+.project-desc{
+    background-color: rgb(78, 78, 78);
+    margin: 0 auto;
+    height: 100px;
+    text-align: center;
+    width: 100%;
+    line-height: 100px;
+}
+.project-links{
+    background-color: rgb(117, 117, 117);
+    text-align: right;
+    height: 30px;
+    width: 100%;
+    line-height: 30px;
+}
+.project-links > ul li{
+    display: inline;
+}
